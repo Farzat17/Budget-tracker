@@ -1,0 +1,34 @@
+body {
+    background-color: blue;
+}
+table {
+    background-color: #ADD8E6;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+    font-size: 2em;
+}
+td,th {
+    height: 2em;
+}
+.full {
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: serif;
+}
+table {
+    border: 5px yellow;
+}
+body {
+    font-size: 3em
+}
+p {
+    width: 100%;
+    height: 100%;
+    font-size: 1em;
+    font-family: serif;
+}

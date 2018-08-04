@@ -2,6 +2,7 @@
 <html>
     <head>
         <!--This is where any new expenses are added-->
+        <link rel="stylesheet" type="text/css" href="style.css">
         <title>New item</title>
     </head>
     <body>
@@ -9,10 +10,29 @@
 
         </header>
         <article>
-
+            <form>
+                <table border="1" style="margin-bottom: 0%">
+                    <tbody>
+                        <tr><td><p><select class="full" name="Category" id="Category">
+                            <option value="" selected>Category</option>
+                            <option value="Food">Food and drinks</option>
+                            <option value="Transport">Transportation</option>
+                            <option value="Stationary">Books/Stationary</option>
+                        </select></p></td></tr>
+                        <tr><td><p><input class="full" type="text" placeholder="Item name"></p></td></tr>
+                        <tr><td style="text-align: right"><p><button class="full" style="width: 21%">¥</button><input class="full" type="text" style="width: 78%"></p></td></tr>
+                        <tr><td><p><input class="full" type="date"></p></td></tr>
+                    </tbody>
+                    <tfoot>
+                        <tr><td><p><input class="full" type="submit" value="Save"></p></td></tr>
+                    </tfoot>
+                </table>
+            </form>
         </article>
         <footer>
-            
+            <table border="1" style="margin-top: 0%">
+                <tr><td><p><a href="Home.htm"><button class="full">Back</button></a></p></td></tr>
+            </table>
         </footer>
     </body>
 </html>
