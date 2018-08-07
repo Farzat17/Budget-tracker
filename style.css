@@ -27,3 +27,7 @@ table {
 body {
     font-size: 3em;
 }
+table, td, th, button, input, select {
+    border-radius: 0.2em;
+    border: yellow 5px solid collapse;
+}
