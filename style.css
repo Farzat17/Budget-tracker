@@ -1,25 +1,39 @@
+/* /by Farzat*/
 body {
     background-color: blue;
     font-size: 3em;
 }
+/* /by Farzat*/
 table {
     background-color: #ADD8E6;
     width: 100%;
-    margin: 0 0 1em 0;
+    margin: 0;
     text-align: center;
     font-size: 2em;
     min-width: 10em;
     border: 5px yellow;
 }
+/* /by Farzat*/
 td,th {
     height: 2em;
 }
+/* /by Farzat*/
 .full {
     width: 100%;
     height: 100%;
     font-size: 1em;
     font-family: serif;
 }
+/* /by Farzat*/
 button:disabled{
     color: black;
+}
+/* /by Farzat*/
+.empty {
+    background-color: white;
+}
+/* /by Farzat*/
+input[type="checkbox"] {
+    background-color: white;
+    text-align: right;
 }

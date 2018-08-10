@@ -1,0 +1,11 @@
+<script>
+//clear localStorage before anything else to start fresh
+localStorage.clear();
+//initialising some arrays
+localStorage.setItem("Currency", "¥")
+localStorage.setItem("id", "0");
+localStorage.setItem("Expenses", JSON.stringify([]));
+//initialising default categories list /byFarzat
+var normalExpenseCategories = ["Food and drinks", "Transportation", "Books/Stationery", "Clothing"]
+localStorage.setItem("normalExpenseCategories", JSON.stringify(normalExpenseCategories));
+</script>

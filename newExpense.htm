@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!--This is where any new expenses are added-->
+        <!--This is where any new expenses are added /by Farzat-->
         <link rel="stylesheet" type="text/css" href="style.css">
         <title>New item</title>
     </head>
@@ -11,17 +11,16 @@
         </header>
         <article>
             <form id="newItem">
-                <table border="1">
+                <table border="1" style="margin-bottom: 1em">
                     <tbody>
-                        <tr><td><p class="full"><select class="full" name="category">
+                        <tr><td><p class="full"><select class="full" name="category" id="category">
                             <option value="" selected>Category</option>
-                            <option value="Food">Food and drinks</option>
-                            <option value="Transport">Transportation</option>
-                            <option value="Stationary">Books/Stationary</option>
+                            <!--more options will be imported from localStorage /by Farzat-->
                         </select></p></td></tr>
                         <tr><td><p class="full"><input class="full" name="name" type="text" placeholder="Item name"></p></td></tr>
-                        <tr><td><p class="full"><button class="full" class="currency" disabled style="width: 21%">¥</button><input class="full" name="price" type="text" style="width: 78%"></p></td></tr>
+                        <tr><td><p class="full"><button class="full currency" disabled style="width: 21%"></button><input class="full" name="price" type="text" style="width: 78%"></p></td></tr>
                         <tr><td><p class="full"><input class="full" name="date" type="date"></p></td></tr>
+                        <tr><td><p class="full"><button class="full" disabled style="width: 74%; float: left">Paid?</button><input class="full" name="paid" type="checkbox" style="width: 25%"></p></td></tr>
                     </tbody>
                     <tfoot>
                         <tr><td><p class="full"><input class="full" type="submit" value="Save"></p></td></tr>
@@ -31,8 +30,9 @@
         </article>
         <footer>
             <table border="1">
-                <tr><td><p class="full"><a href="index.htm"><button class="full">Back</button></a></p></td></tr>
+                <tr><td><p class="full"><a href="home.htm"><button class="full">Back</button></a></p></td></tr>
             </table>
         </footer>
+        <script src="newExpense.js"></script>
     </body>
 </html>
